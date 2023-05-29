@@ -1,0 +1,179 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 30px 50px 30px;
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.parent0 {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    width: 90%;
+    gap: 20px;
+    border-radius: 1em;
+}
+
+.parent1 {
+    background-color: #feab5e;
+    color: #ffffff;
+}
+
+.parent2 {
+    background-color: #ffffff;
+    color: #FEAC5E;
+    flex-direction: column;
+}
+
+.anonFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 80%;
+}
+
+.headings {
+    /* color: white; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.parent2>.headings {
+    align-self: self-start;
+}
+
+h1 {
+    margin: 0px auto;
+}
+
+.inputCont {
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    width: 85%;
+}
+
+.postsCont {
+    background-color: #FEAC5E;
+    padding: 1em;
+    border-radius: 1em;
+    width: 80%;
+    color: white;
+}
+
+.formCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+}
+
+input {
+    border: none;
+    border-bottom: 5px solid #FEAC5E;
+    margin: 10px;
+    width: 70%;
+    padding: 7px;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.addButton {
+    color: white;
+    background: #FEAC5E;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 5ms;
+    margin-top: 25px;
+}
+
+
+.addButton:hover {
+    background: #f38c2b;
+    cursor: pointer;
+}
+
+
+.postsDiv {
+    height: 90%;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.anonFlex>img {
+    width: 25%;
+    border-radius: 0.3em;
+}
+
+.post {
+    margin-bottom: 12px;
+    padding: 1px 15px;
+    border-radius: 12px;
+    color: #FEAC5E;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.post>div {
+    font-size: 20px;
+
+}
+
+div {
+    font-size: 25px;
+    margin: 15px auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftCont {
+    width: 45%;
+}
+
+.rightCont {
+    width: 45%;
+}
+
+h5 {
+    margin: 0px;
+}
+
+.activityGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.activityGrid>img {
+    width: 80%;
+}
